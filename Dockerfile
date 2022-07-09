@@ -1,8 +1,17 @@
+FROM node:lts-buster
 
-FROM edmbotwa/edm-official
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
 
-ENV TZ=Europe/Istanbul
-RUN yarn add supervisor -g
-RUN yarn install --no-audit
+COPY package.json .
 
-CMD ["node", "bot.js"]
+RUN npm install
+
+COPY . .
+
+CMD ["node", "."]
