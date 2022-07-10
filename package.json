@@ -1,19 +1,25 @@
 {
-  "name": "aquabot",
-  "version": "1.0.1",
-  "description": "aquabot happy for whatsapp.",
-  "main": "/aquabot/bot.js",
+  "name": "CheemsBot",
+  "version": "2.0.0",
+  "description": "WhatsApp Using Lib Baileys Multi Device",
+  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "supervisor -s bot.js"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sanuwaofficial/AquaBot.git"
-  },
-  "author": "sanuwa",
-  "developer": "sanuwa",
-  },
-"license": "MIT",
+  "keywords": [
+    "termux",
+    "whatsapp",
+    "2021",
+    "wabase-md",
+    "base",
+    "baileys-md",
+    "bot",
+    "bot-md",
+    "multi-device"
+  ],
+  "author": "Xeon.",
+  "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "^4.0.1",
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -64,5 +70,4 @@
     "url": "https://github.com/DGXeon/CheemsBot-MD2/issues"
   },
   "homepage": "https://github.com/DGXeon/CheemsBot-MD2#readme"
-}
 }
