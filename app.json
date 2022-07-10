@@ -1,16 +1,10 @@
 {
-    "name": "Aquabot",
-    "description": "AQUABOT  - Makes it easy and fun to use Whatsapp.",
-    "logo": "https://i.ibb.co/LhyDWxR/aquabot.jpg",
-    "keywords": ["whatsapp", "userbot", "aqua", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/edm-official/gsdj",
-    "website":   "https://aquabot.ga/",
-    "success_url": "https://sanuw-api.herokuapp.com/",
-    "stack": "container",
-    "addons": [{
-      "plan": "heroku-postgresql"
-    }],
-    "buildpacks": [
+  "name": "CheemsBot-MD",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/DGXeon/CheemsBot-MD2",
+  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
@@ -20,5 +14,11 @@
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
-    ]
-  }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
