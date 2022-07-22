@@ -1,4 +1,4 @@
-FROM aquabotwa/sanuwa-official:md-beta
+FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/edm-official/edmbot /root/edm
 WORKDIR /root/edm/
