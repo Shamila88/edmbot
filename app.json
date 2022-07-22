@@ -1,9 +1,9 @@
 {
-    "name": "BOBIZ - MD",
-    "description": "BOBIZMD  - Makes it easy and fun to use Whatsapp.",
-    "logo": "https://telegra.ph/file/201b5c02be1e336a29c60.jpg",
+    "name": "EDM BOT - MD",
+    "description": "EDM BOT  - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://i.ibb.co/0JwXrz0/20220629-215612.jpg",
     "keywords": ["whatsapp", "userbot", "bobiz", "bot", "ai" , "MD" ],
-    "repository": "https://github.com/bobizbotmd/BOBIZ-MD",
+    "repository": "https://github.com/edm-official/edmbot",
     "website":   "",
     "success_url": "",
     "stack": "container",
@@ -16,7 +16,7 @@
       },
            "URL_1LINK": {
             "description": "",
-            "value": "http://instagram.com/noureddine_ouafy" ,
+            "value": "http://instagram.com/" ,
             "required": true
       },
      "URL_2NAME": {
@@ -26,7 +26,7 @@
       },
        "URL_2LINK": {
             "description": "",
-            "value": "https://github.com/bobizbotmd/BOBIZ-MD" ,
+            "value": "https://github.com/edm-official/edmbot" ,
             "required": true
       },
       
@@ -37,7 +37,7 @@
       },
       "ALIVE_LOGO": {
             "description": "add direct image url",
-            "value": "https://telegra.ph/file/201b5c02be1e336a29c60.jpg" ,
+            "value": "https://i.ibb.co/0JwXrz0/20220629-215612.jpg" ,
             "required": true
       },
      
