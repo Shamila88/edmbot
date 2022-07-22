@@ -40,6 +40,16 @@
             "value": "https://i.ibb.co/0JwXrz0/20220629-215612.jpg" ,
             "required": true
       },
+         "HEROKU_API_KEY": {
+            "description": "heroku api key",
+            "value": "" ,
+            "required": true
+      },
+         "HEROKU_APP_NAME": {
+            "description": "your heroku app name",
+            "value": "" ,
+            "required": true
+      },
      
        "SONG_DOWN": {
             "description": "song downloading text",
