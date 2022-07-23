@@ -1,4 +1,4 @@
-FROM fusuf/whatsasena:latest
+FROM quay.io/souravkl11/raganork:multidevice
 
 RUN git clone https://github.com/edm-official/edmbot /root/edm
 WORKDIR /root/edm/
