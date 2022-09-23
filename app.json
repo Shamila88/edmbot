@@ -9,84 +9,17 @@
     "stack": "container",
      "env": {
           
-           "URL_1NAME": {
-            "description": "",
-            "value": "🎃Follow me on Instagram🎃" ,
-            "required": true
-      },
-           "URL_1LINK": {
-            "description": "",
-            "value": "http://instagram.com/" ,
-            "required": true
-      },
-     "URL_2NAME": {
-            "description": "",
-            "value": "✨Star on Github✨" ,
-            "required": true
-      },
-       "URL_2LINK": {
-            "description": "",
-            "value": "https://github.com/edm-official/edmbot" ,
-            "required": true
-      },
-      
+          
       "ALIVE_MESSAGE": {
             "description": "add text",
             "value": "default", 
             "required": true
       },
-      "ALIVE_LOGO": {
-            "description": "add direct image url",
-            "value": "https://i.ibb.co/0JwXrz0/20220629-215612.jpg" ,
+       "EDM_SESSION": {
+            "description": "qr session code",
             "required": true
-      },
-         "HEROKU_API_KEY": {
-            "description": "heroku api key",
-            "value": "" ,
-            "required": true
-      },
-         "HEROKU_APP_NAME": {
-            "description": "your heroku app name",
-            "value": "" ,
-            "required": true
-      },
-     
-       "SONG_DOWN": {
-            "description": "song downloading text",
-            "value": "*📥Downloading your song...*" ,
-            "required": true
-      }, 
-        "SONG_UP": {
-            "description": "song uploading text",
-            "value": "*📤Uploading your song...*" ,
-            "required": true
-      },
-          "VIDEO_DOWN": {
-            "description": "video downloading text",
-            "value": "*📥Downloading your video...*" ,
-            "required": true
-      },
-          "VIDEO_UP": {
-            "description": "video uploading text",
-            "value": "*📤Uploading your video...*" ,
-            "required": true
-      },
-          "FILE_DOWN": {
-            "description": "file downloading text",
-            "value": "*📥Downloading your file...*" ,
-            "required": true
-      },
-          "FILE_UP": {
-            "description": "file uploading text",
-            "value": "*📤Uploading your file...*" ,
-            "required": true
-      },
-          "STIC_WM": {
-            "description": "sticker watermark",
-            "value": "BOBIZ-MD" ,
-            "required": true
-      }
-         
+             }
+      
         
      },
     "addons": [{
